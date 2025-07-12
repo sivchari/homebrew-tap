@@ -2,7 +2,7 @@
 cask "govalid" do
   desc "A Go code generator for validation functions"
   homepage "https://github.com/sivchari/govalid"
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "govalid" do
 
   on_macos do
     on_intel do
-      url "https://github.com/sivchari/govalid/releases/download/v1.0.0/govalid_1.0.0_darwin_amd64.tar.gz"
-      sha256 "8f092c66ce691f4381e309dccecfb5268535725b236a3b13ecc796a3ccfaff38"
+      url "https://github.com/sivchari/govalid/releases/download/v1.0.1/govalid_1.0.1_darwin_amd64.tar.gz"
+      sha256 "ab7b4e45138ec030a212270aa0734939c3dcd32e9f3e3f9489a858f91900929e"
     end
     on_arm do
-      url "https://github.com/sivchari/govalid/releases/download/v1.0.0/govalid_1.0.0_darwin_arm64.tar.gz"
-      sha256 "7f53d0e4dbf57c9d581d56dc6b2299507db490127485a00faf4037d49840181e"
+      url "https://github.com/sivchari/govalid/releases/download/v1.0.1/govalid_1.0.1_darwin_arm64.tar.gz"
+      sha256 "143e17bbca2f2139dc26de957147168717b9e905237e6ee4a42dac211ff401a1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/sivchari/govalid/releases/download/v1.0.0/govalid_1.0.0_linux_amd64.tar.gz"
-      sha256 "53680054db0fc8d56699f55398904865d87b9435400e447587539206dd95a11d"
+      url "https://github.com/sivchari/govalid/releases/download/v1.0.1/govalid_1.0.1_linux_amd64.tar.gz"
+      sha256 "aa6074c47b885851b7cd15334461293fb8b1aa4792d2045f9d03aa400020bc67"
     end
     on_arm do
-      url "https://github.com/sivchari/govalid/releases/download/v1.0.0/govalid_1.0.0_linux_arm64.tar.gz"
-      sha256 "4959df0f941274bf1cba9757d8d601346cf1bff1d93bf204bf2d76f9511a41eb"
+      url "https://github.com/sivchari/govalid/releases/download/v1.0.1/govalid_1.0.1_linux_arm64.tar.gz"
+      sha256 "1cb5d42a7509c7d44203cc7296f88724014f4b677f32e8af93f807d766d242bf"
     end
   end
 
