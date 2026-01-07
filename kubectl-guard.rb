@@ -11,7 +11,7 @@ class KubectlGuard < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/sivchari/kubectl-guard/releases/download/v0.0.2/kubectl-guard_0.0.2_darwin_amd64.tar.gz"
-      sha256 "8dc7c3ee38b357641f1face6deb79331aba68960644f0f420ae408d5fb325ea3"
+      sha256 "b8411d1950b3b3f8bad0ca0484407e77a50e150ecdc91274fed034d215873aca"
 
       def install
         bin.install "kubectl-guard"
@@ -19,7 +19,7 @@ class KubectlGuard < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/sivchari/kubectl-guard/releases/download/v0.0.2/kubectl-guard_0.0.2_darwin_arm64.tar.gz"
-      sha256 "ae6562eef382581529f54e654bf2a0b087855f387b7e58a5006117825a9bc730"
+      sha256 "224fe440e9c57bb2f51121acd353de7c832a9821c00597e04000fc44ab16c754"
 
       def install
         bin.install "kubectl-guard"
@@ -30,14 +30,14 @@ class KubectlGuard < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/sivchari/kubectl-guard/releases/download/v0.0.2/kubectl-guard_0.0.2_linux_amd64.tar.gz"
-      sha256 "893ff966fdec45e6e57c05ae6fae7810fc1d6f4f12227d23a7fbefcf01037d0e"
+      sha256 "3b0f23fc667be88099ad088c9551d5c1cd462bc26d3648d9dd56ca809d6755b6"
       def install
         bin.install "kubectl-guard"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/sivchari/kubectl-guard/releases/download/v0.0.2/kubectl-guard_0.0.2_linux_arm64.tar.gz"
-      sha256 "96574a1cb8120c7fc649d40dc1661b4b0b4a196af1a32932f43495f747fc7114"
+      sha256 "9378f2e4f751a8cfe8b06a86f4a8db26deb5db138a989cbe1e012e4ea4d0d80c"
       def install
         bin.install "kubectl-guard"
       end
