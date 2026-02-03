@@ -3,7 +3,7 @@ cask "crx" do
   name "crx"
   desc "Declarative Chrome extension manager using Chrome Enterprise Policy"
   homepage "https://github.com/sivchari/crx"
-  version "0.0.1"
+  version "0.0.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "crx" do
   on_macos do
     on_intel do
       url "https://github.com/sivchari/crx/releases/download/v#{version}/crx_#{version}_darwin_amd64.tar.gz"
-      sha256 "94445ee14e0e4e35ae57483c8fb8ecd2f97106e7711a10e4292bbe398d41bc37"
+      sha256 "1028e4faee1e3d926d6da10ee662ed22a2078cda533a9c07c27290969cf7248c"
     end
     on_arm do
       url "https://github.com/sivchari/crx/releases/download/v#{version}/crx_#{version}_darwin_arm64.tar.gz"
-      sha256 "8014bc38f50093a096ef9ff953824b946353488686f80489bf0758b0e5e8f3b2"
+      sha256 "b6a61343fb9e0665eac62bc87dcab4c122b7069fffbaf1c02c149be7b6fae622"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sivchari/crx/releases/download/v#{version}/crx_#{version}_linux_amd64.tar.gz"
-      sha256 "f89a7c27c1204f07b2623a81f3498c736b109b4d180d7da2ea7d3e003197a9da"
+      sha256 "dcc1b54ac65ab26c1317a216da9c8bd3d5f44f7bee5068490ccc5e16cf64296b"
     end
     on_arm do
       url "https://github.com/sivchari/crx/releases/download/v#{version}/crx_#{version}_linux_arm64.tar.gz"
-      sha256 "bd010d7fdb94b7d54a5fa2c6d27527f7927adf91d9cf9ef0f0cbfea55210d327"
+      sha256 "985c87a77bd4a9cedd90c0abc606fc6fd9675554aaf776a16e1e0d84a53006ef"
     end
   end
 
