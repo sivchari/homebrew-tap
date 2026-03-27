@@ -3,7 +3,7 @@ cask "kumo" do
   name "kumo"
   desc "A lightweight AWS service emulator for CI/CD environments"
   homepage "https://github.com/sivchari/kumo"
-  version "0.5.4"
+  version "0.6.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "kumo" do
   on_macos do
     on_intel do
       url "https://github.com/sivchari/kumo/releases/download/v#{version}/kumo_#{version}_darwin_amd64.tar.gz"
-      sha256 "62ecfbf9a9bebce966d6576ba90f4a21f3b8e80fa0ad079861845efc1167ec94"
+      sha256 "099dd7df29b90c10894843194af2d492ad3a4242a15ab4ef5188e2af3ba7c78a"
     end
     on_arm do
       url "https://github.com/sivchari/kumo/releases/download/v#{version}/kumo_#{version}_darwin_arm64.tar.gz"
-      sha256 "0f58b87ddf48c3b17a94211299c5e446bdb0709028b39a121f9ec9e0dd38c406"
+      sha256 "f7db0657a14ab410ea38b8ac86587b77073dddc7cdbb842ab015b3deb5a6dfd2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sivchari/kumo/releases/download/v#{version}/kumo_#{version}_linux_amd64.tar.gz"
-      sha256 "6061d3a1c6850226e6ffcd5cf11efb8aa0d5bbfeeefccd357c7a50557212b100"
+      sha256 "ccbe38ef4c20924043466e2d6ad43d82b4a0a485fec6430ed021b187543ce9e9"
     end
     on_arm do
       url "https://github.com/sivchari/kumo/releases/download/v#{version}/kumo_#{version}_linux_arm64.tar.gz"
-      sha256 "fcbf6b10757c72fb7c47723748d5578313b5a24cf465f72746b8b499a3b2b4c2"
+      sha256 "23ef350b7e1ceb45ffb1813106568fc3593f081bad46f7825f99f809ee2cb2b9"
     end
   end
 
